@@ -1,7 +1,9 @@
 # Guacamole notes and workflow
 1. Create the script
-2. Create your env file 
-3. Docker compose
+2. Create the folder
+3. Copy result from script into folder
+4. Create your env file and associated password
+5. Docker compose
 
 # Create the script first using:
 - create the DB script: 
@@ -10,11 +12,11 @@
 - Place the script inside the folder initdb'
 
 # Create the env file with the following variables:
-DB_ROOT_PASSWORD=
-DB_SERVER="%"
-DB_NAME=
-DB_USER=guacamole_user
-DB_PASSWORD=
+    DB_ROOT_PASSWORD=
+    DB_SERVER="%"
+    DB_NAME=
+    DB_USER=guacamole_user
+    DB_PASSWORD=
 
 # Check inside mysql (if needed):
     mysql -u guacamole_user -p 
